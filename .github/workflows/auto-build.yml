@@ -50,4 +50,4 @@ jobs:
         with:
           commit_message: "chore: update build directory [skip ci]"
           file_pattern: "build/**"
-          branch: main
+          branch: master
