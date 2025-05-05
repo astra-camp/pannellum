@@ -40,7 +40,9 @@ jobs:
 
       # 4. Run your upstream build
       - name: Build the library
-        run: bash utils/build/build.sh
+        run: |
+          cd utils/build
+          bash build.sh
 
       # 5. Commit & push any changes under build/
       - name: Commit build output
